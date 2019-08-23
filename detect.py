@@ -59,15 +59,6 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 # Run tesseract OCR on image
 text = pytesseract.image_to_string(new_image, config=config)
 
-#Data is stored in CSV file
-raw_data = {'date': [time.asctime( time.localtime(time.time()) )], 
-        'v_number': [text]}
-
-df = pd.DataFrame(raw_data, columns = ['date', 'v_number'])
-df.to_csv('data.csv')
-
-# Print recognized text
 print(text)
 
 cv2.waitKey(0) #Wait for user input before closing the images displayed
-
