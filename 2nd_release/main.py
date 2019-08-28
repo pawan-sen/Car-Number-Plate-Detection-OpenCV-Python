@@ -9,7 +9,7 @@ import cv2
 import detect
 from PIL import Image
 import imutils
-filename = './video15.mp4'
+filename = './video12.mp4'
 
 cap = cv2.VideoCapture(filename)
 
