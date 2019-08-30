@@ -20,4 +20,4 @@ Now find contours using edges and pick the best approximation - contour with fou
 
 ## Now we give the image of Car Plate to tesseract for OCR and simply print result
 
-No.=
+No.=BG 224NZ
