@@ -17,3 +17,7 @@ Now find contours using edges and pick the best approximation - contour with fou
 
 ## Final Image with Car Plate Detected
 ![alt text](https://github.com/Aqsa-K/Car-Number-Plate-Detection-OpenCV-Python/blob/master/pictures/Final%20Image%20With%20Number%20Plate%20Detected.jpg?raw=true)
+
+## Now we give the image of Car Plate to tesseract for OCR and simply print result
+
+No.=
